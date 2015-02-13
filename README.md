@@ -16,16 +16,25 @@ The files work by creating and loading an [OS X launch user agent](http://launch
 
 ***
 
-USAGE (Mac-only):
+USAGE (Mac-only):  
+
+To Set-up:
 
 - In terminal:
 > ```
 > curl https://raw.githubusercontent.com/bhekman/BirthdayDaemon/master/setupHappyBirthday.sh > setupHappyBirthday.sh
   chmod +x setupHappyBirthday.sh
   ./setupHappyBirthday.sh
+> ```
 
 - Answer the prompts from the script
 - ...
 - Profit
 
+To Get Rid Of:
+
+- In terminal:  
+```launchctl unload "com.bhekman.happybirthday"```
+
 ***
+
