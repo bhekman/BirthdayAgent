@@ -1,4 +1,4 @@
-# BirthdayDaemon
+# BirthdayAgent
 
 ***
 
@@ -22,7 +22,7 @@ To Set-up:
 
 - In terminal:
 > ```
-> curl https://raw.githubusercontent.com/bhekman/BirthdayDaemon/master/setupHappyBirthday.sh > setupHappyBirthday.sh
+> curl https://raw.githubusercontent.com/bhekman/BirthdayAgent/master/setupHappyBirthday.sh > setupHappyBirthday.sh
   chmod +x setupHappyBirthday.sh
   ./setupHappyBirthday.sh
 > ```
