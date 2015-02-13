@@ -8,7 +8,7 @@ read DAY
 echo "Enter name to say: "
 read NAME
 
-### MAKE PATHS & CREATE OR CLEAR FILES ###
+### SET UP PATHS & FILES ###
 FILEPATH="$( cd ~/Library/LaunchAgents/ && pwd )"
 PLISTNAME="/com.bhekman.happybirthday.plist"
 PLIST=$FILEPATH$PLISTNAME
@@ -18,6 +18,7 @@ SCRIPTNAME="/happybirthday.sh"
 SCRIPT=$FILEPATH$SCRIPTNAME
 touch $SCRIPT
 > $SCRIPT
+chmod +x $SCRIPT
 LABEL="com.bhekman.happybirthday"
 
 ### CREATE PLIST ###
