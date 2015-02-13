@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.bhekman.happybirthday</string>
+  <key>Program</key>
+  <string>
+/Users/bradleyhekman/Library/LaunchAgents/happybirthday.sh
+</string>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Month</key>
+    <integer>
+1
+</integer>
+    <key>Day</key>
+    <integer>
+22
+</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict></integer>
+  <key>KeepAlive</key>
+  <dict>
+    <key>SuccessfulExit</key>
+    <false/>
+  </dict></key>
+</dict>
+</plist>
