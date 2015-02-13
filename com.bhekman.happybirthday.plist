@@ -5,15 +5,21 @@
   <key>Label</key>
   <string>com.bhekman.happybirthday</string>
   <key>Program</key>
-  <string>/Users/bradleyhekman/Library/LaunchAgents/happybirthday.sh</string>
+  <string>
+/Users/bradleyhekman/Library/LaunchAgents/happybirthday.sh
+</string>
   <key>StartCalendarInterval</key>
   <dict>
     <key>Month</key>
-    <integer>2</integer>
+    <integer>
+1
+</integer>
     <key>Day</key>
-    <integer>12</integer>
+    <integer>
+22
+</integer>
     <key>Minute</key>
-    <integer>55</integer>
+    <integer>0</integer>
   </dict></integer>
   <key>KeepAlive</key>
   <dict>
