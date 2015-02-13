@@ -7,9 +7,9 @@ NOTE: I obviously don't support using this script on other peoples' computers wi
 
 USAGE (Mac-only):
 - In terminal:
-  '''curl https://raw.githubusercontent.com/bhekman/BirthdayDaemon/master/setupHappyBirthday.sh > setupHappyBirthday.sh
+  ```curl https://raw.githubusercontent.com/bhekman/BirthdayDaemon/master/setupHappyBirthday.sh > setupHappyBirthday.sh
   chmod +x setupHappyBirthday.sh
-  ./setupHappyBirthday.sh'''
+  ./setupHappyBirthday.sh```
 - Answer the prompts from the script
 - ...
 - Profit
