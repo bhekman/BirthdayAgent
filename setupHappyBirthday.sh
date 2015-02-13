@@ -60,6 +60,7 @@ echo '</integer>
 
 ### CREATE SCRIPT ###
 echo "#!/usr/bin/env bash" >> $SCRIPT
+echo "osascript -e 'set Volume 10'" >> $SCRIPT
 echo "say -v 'Good News' 'happy birthday, $NAME'" >> $SCRIPT
 
 ### LOAD IT UP ###
