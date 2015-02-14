@@ -33,7 +33,7 @@ To Set-up:
 
 To Get Rid Of:
 
-- In terminal:  
+- In terminal (TODO: this lies):  
 ```launchctl unload "com.bhekman.happybirthday"```
 
 ***
