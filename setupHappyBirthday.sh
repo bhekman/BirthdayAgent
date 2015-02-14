@@ -22,32 +22,20 @@ chmod +x $SCRIPT
 LABEL="com.bhekman.happybirthday"
 
 ### CREATE PLIST ###
-echo '<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
+echo "<?xml version='1.0'; encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC '-//Apple//DTD PLIST 1.0//EN' 'http://www.apple.com/DTDs/PropertyList-1.0.dtd'>
+<plist version='1.0'>
 <dict>
   <key>Label</key>
   <string>com.bhekman.happybirthday</string>
   <key>Program</key>
-  <string>' >> $PLIST
-
-echo "$SCRIPT" >> $PLIST
-
-echo '</string>
+  <string>$SCRIPT</string>
   <key>StartCalendarInterval</key>
   <dict>
     <key>Month</key>
-    <integer>' >> $PLIST
-
-echo "$MONTH" >> $PLIST
-
-echo '</integer>
+    <integer>$MONTH</integer>
     <key>Day</key>
-    <integer>' >> $PLIST
-
-echo "$DAY" >> $PLIST
-
-echo '</integer>
+    <integer>$DAY</integer>
     <key>Minute</key>
     <integer>0</integer>
   </dict></integer>
@@ -57,7 +45,7 @@ echo '</integer>
     <false/>
   </dict></key>
 </dict>
-</plist>' >> $PLIST
+</plist>" >> $PLIST
 
 ### CREATE SCRIPT ###
 echo "#!/usr/bin/env bash" >> $SCRIPT
